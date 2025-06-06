@@ -71,3 +71,19 @@ console.log(novoArray);
 let paraInspecao = inventarioBeta.slice(0,5);
 console.log("13- Nova lista:");
 console.table(paraInspecao);
+
+// 14- Separe os 10 últimos itens do inventário Alpha para estudo temporal.
+let paraEstudoTemporal = inventarioAlpha.splice(16, 10)
+console.log("Lista para estudo temporal:");
+console.table(paraEstudoTemporal);
+
+// 15- O quinto item da Alpha foi substituído por uma versão mais moderna. Atualize.
+let novoItem = ["Flor de Andrômeda Desenvolvida", "Andrômeda", 13400];
+inventarioAlpha.splice(4, 1, novoItem);
+console.log("Item 5 substituído por: ", novoItem);
+console.table(inventarioAlpha);
+
+// 16- Dois itens no meio do inventário Beta foram contaminados e precisam ser removidos.
+let contaminados = inventarioBeta.splice(12, 2);
+console.log("Itens contaminados:", contaminados);
+console.table(inventarioBeta);
