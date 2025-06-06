@@ -62,10 +62,10 @@ console.table(inventarioAlpha);
 
 //Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
 
-itemEmDestaque = inventarioAlpha[7]
+itemEmDestaque = inventarioAlpha[7];
 inventarioAlpha.splice(7, 1);
 
 console.log("Após modificação:");
 console.log("Item Destacado:", itemEmDestaque);
-inventarioAlpha.unshift(itemEmDestaque)
+inventarioAlpha.unshift(itemEmDestaque);
 console.table(inventarioAlpha);
