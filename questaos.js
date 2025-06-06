@@ -99,4 +99,8 @@ let itensEmDestaqueBeta = inventarioBeta.splice(0, 5);
 let vitrine = itensEmDestaqueAlpha.concat(itensEmDestaqueBeta)
 console.table(vitrine);
 
-// 19- 
+// 26-  Inverta a ordem dos 15 primeiros itens da Alpha como simulação de viagem no tempo.
+let alpha = inventarioAlpha.splice(0, 15);
+let alphaInvertido = alpha.reverse();
+console.log("Inventário Alpha com 15 primeiros invertidos:");
+console.table(alphaInvertido);
