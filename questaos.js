@@ -87,3 +87,9 @@ console.table(inventarioAlpha);
 let contaminados = inventarioBeta.splice(12, 2);
 console.log("Itens contaminados:", contaminados);
 console.table(inventarioBeta);
+
+// 17- Unifique os inventários Alpha e Beta em uma única estrutura.
+let inventariosNaves = inventarioAlpha.concat(inventarioBeta);
+console.log("Inventários das Naves unificados:");
+console.table(inventariosNaves);
+
