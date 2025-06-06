@@ -63,8 +63,11 @@ let inventarioBeta = [
 
 let novoArray;
 
-console.log("Após modificação:");
+console.log("12- Após modificação:");
 novoArray = inventarioBeta.slice(0, 10);
 console.log(novoArray);
 
-
+// 13- Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
+let paraInspecao = inventarioBeta.slice(0,5);
+console.log("13- Nova lista:");
+console.table(paraInspecao);
