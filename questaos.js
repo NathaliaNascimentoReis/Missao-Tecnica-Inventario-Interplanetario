@@ -73,7 +73,7 @@ console.log("13- Nova lista:");
 console.table(paraInspecao);
 
 // 14- Separe os 10 últimos itens do inventário Alpha para estudo temporal.
-let paraEstudoTemporal = inventarioAlpha.splice(16, 10)
+let paraEstudoTemporal = inventarioAlpha.splice(16, 10);
 console.log("Lista para estudo temporal:");
 console.table(paraEstudoTemporal);
 
@@ -104,3 +104,4 @@ let alpha = inventarioAlpha.splice(0, 15);
 let alphaInvertido = alpha.reverse();
 console.log("Inventário Alpha com 15 primeiros invertidos:");
 console.table(alphaInvertido);
+console.log(alpha);
