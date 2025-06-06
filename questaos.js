@@ -93,3 +93,10 @@ let inventariosNaves = inventarioAlpha.concat(inventarioBeta);
 console.log("Inventários das Naves unificados:");
 console.table(inventariosNaves);
 
+// 18- Junte os cinco primeiros itens de cada nave em uma nova vitrine de destaques.
+let itensEmDestaqueAlpha = inventarioAlpha.splice(0, 5);
+let itensEmDestaqueBeta = inventarioBeta.splice(0, 5);
+let vitrine = itensEmDestaqueAlpha.concat(itensEmDestaqueBeta)
+console.table(vitrine);
+
+// 19- 
